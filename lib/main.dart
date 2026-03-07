@@ -30,12 +30,16 @@ class HomePage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
 
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Image.network(
-                          'https://www.apple.com/id/iphone-17-pro/images/overview/highlights/highlights_design_endframe__eu8gj0kqlmoi_large.jpg',
+
+                      Center(
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.network(
+                            'https://www.apple.com/id/iphone-17-pro/images/overview/highlights/highlights_design_endframe__eu8gj0kqlmoi_large.jpg',
+                          ),
                         ),
                       ),
+
 
                       SizedBox(height: 20),
                       Text(
