@@ -18,9 +18,8 @@ class HomePage extends StatelessWidget {
 
           centerTitle: true,
         ),
-        
+
         body: SingleChildScrollView(
-          
           child: Container(
             margin: EdgeInsets.all(20),
             child: Column(
@@ -34,14 +33,30 @@ class HomePage extends StatelessWidget {
                         'https://www.apple.com/id/iphone-17-pro/images/overview/highlights/highlights_design_endframe__eu8gj0kqlmoi_large.jpg',
                       ),
                       SizedBox(height: 20),
-                      Text('Ip 17 Promax 2026', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),),
+                      Text(
+                        'Ip 17 Promax 2026',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40,
+                        ),
+                      ),
                       SizedBox(height: 10),
-                      Text('Inilah iPhone 17 baru. Didesain dengan ujung berkontur, tepian lebih tipis, dan material tangguh seperti Ceramic Shield 2 di bagian depan, membuatnya tampak menawan selalu. Anda bisa melihat dan melakukan semua yang Anda sukai dengan layar Super Retina XDR 6,3 inci.5 Pengalaman menggulir juga lebih lancar dan bermain game lebih imersif dengan ProMotion, yang memiliki refresh rate adaptif hingga 120 Hz. Nikmati pengalamannya.'),
+                      Text(
+                        'Inilah iPhone 17 baru. Didesain dengan ujung berkontur, tepian lebih tipis, dan material tangguh seperti Ceramic Shield 2 di bagian depan, membuatnya tampak menawan selalu. Anda bisa melihat dan melakukan semua yang Anda sukai dengan layar Super Retina XDR 6,3 inci.5 Pengalaman menggulir juga lebih lancar dan bermain game lebih imersif dengan ProMotion, yang memiliki refresh rate adaptif hingga 120 Hz. Nikmati pengalamannya.',
+                      ),
                       SizedBox(height: 10),
-                      Text('Keuntungan IP 17 Promax', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                      Text(
+                        'Keuntungan IP 17 Promax',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
                       SizedBox(height: 10),
-                      Text('Inilah iPhone 17 baru. Didesain dengan ujung berkontur, tepian lebih tipis, dan material tangguh seperti Ceramic Shield 2 di bagian depan, membuatnya tampak menawan selalu. Anda bisa melihat dan melakukan semua yang Anda sukai dengan layar Super Retina XDR 6,3 inci.5 Pengalaman menggulir juga lebih lancar dan bermain game lebih imersif dengan ProMotion, yang memiliki refresh rate adaptif hingga 120 Hz. Nikmati pengalamannya.'),
-
+                      Text(
+                        '''Inilah iPhone 17 baru. Didesain dengan ujung berkontur, tepian lebih tipis, dan material tangguh seperti Ceramic Shield 2 di bagian depan, membuatnya tampak menawan selalu. Anda bisa melihat dan melakukan semua yang Anda sukai dengan layar Super Retina XDR 6,3 inci.5 Pengalaman menggulir juga lebih lancar dan bermain game lebih imersif dengan ProMotion, yang memiliki refresh rate adaptif hingga 120 Hz. Nikmati pengalamannya.
+                        ''',
+                      ),
                     ],
                   ),
                 ),
@@ -66,7 +81,13 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa'),
+                            Text(
+                              'Daffa',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
                             Text('Artikel pertama yang bagus'),
                           ],
                         ),
@@ -78,8 +99,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffi',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('Pns beban begara pemborosan uang rakyat'),
+                            Text(
+                              'Daffi',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('iphone 17 bagus juga ya'),
                           ],
                         ),
                       ),
@@ -90,8 +117,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Asep',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('bener tuh, om saya kalo ada kegiatan pasti nyayur'),
+                            Text(
+                              'Asep',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Kamera nya bagus juga ya'),
                           ],
                         ),
                       ),
@@ -102,8 +135,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Ucok',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('Setuju, apalagi kalo udah mau pensiun'),
+                            Text(
+                              'Ucok',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Baterai nya awet juga ya'),
                           ],
                         ),
                       ),
@@ -114,8 +153,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Udin',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('Mending jadi wirausaha aja'),
+                            Text(
+                              'Udin',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Harga nya mahal juga ya'),
                           ],
                         ),
                       ),
@@ -126,8 +171,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Ujang',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('Banyak juga yang jadi influencer'),
+                            Text(
+                              'Ujang',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Ram nya kecil juga ya'),
                           ],
                         ),
                       ),
@@ -138,8 +189,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('Banyak juga yang jadi influencer'),
+                            Text(
+                              'Daffa',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Chip nya kecil juga ya'),
                           ],
                         ),
                       ),
@@ -150,8 +207,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
-                            Text('Artikel pertama yang bagus'),
+                            Text(
+                              'Alex',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Baterai nya awet juga ya'),
                           ],
                         ),
                       ),
@@ -162,8 +225,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa'),
-                            Text('Artikel pertama yang bagus'),
+                            Text(
+                              'John',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Chip nya kecil juga ya'),
                           ],
                         ),
                       ),
@@ -174,8 +243,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa'),
-                            Text('Artikel pertama yang bagus'),
+                            Text(
+                              'Rismana',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Harga nya mahal juga ya'),
                           ],
                         ),
                       ),
@@ -186,8 +261,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa'),
-                            Text('Artikel pertama yang bagus'),
+                            Text(
+                              'Diana',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Ram nya kecil juga ya'),
                           ],
                         ),
                       ),
@@ -198,8 +279,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa'),
-                            Text('Artikel pertama yang bagus'),
+                            Text(
+                              'Gita',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Baterai nya awet juga ya'),
                           ],
                         ),
                       ),
@@ -210,8 +297,14 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Daffa'),
-                            Text('Artikel pertama yang bagus'),
+                            Text(
+                              'Arsa',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text('Chip nya kecil juga ya'),
                           ],
                         ),
                       ),
