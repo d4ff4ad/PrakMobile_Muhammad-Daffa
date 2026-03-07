@@ -24,14 +24,19 @@ class HomePage extends StatelessWidget {
             margin: EdgeInsets.all(20),
             child: Column(
               children: [
-                Row(children: [Icon(Icons.archive), Text('Artikel Terbaru')]),
+                Row(children: [Icon(Icons.book), Text('Artikel Terbaru')]),
                 Card(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Image.network(
-                        'https://www.apple.com/id/iphone-17-pro/images/overview/highlights/highlights_design_endframe__eu8gj0kqlmoi_large.jpg',
+
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Image.network(
+                          'https://www.apple.com/id/iphone-17-pro/images/overview/highlights/highlights_design_endframe__eu8gj0kqlmoi_large.jpg',
+                        ),
                       ),
+
                       SizedBox(height: 20),
                       Text(
                         'Ip 17 Promax 2026',
