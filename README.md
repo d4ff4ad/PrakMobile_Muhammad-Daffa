@@ -1,4 +1,4 @@
-# Aplikasi Pertamaku - Praktikum Pemrograman Mobile Pertemuan 1
+# Aplikasi  - Praktikum Pemrograman Mobile Pertemuan 1
 
 Proyek ini adalah aplikasi Flutter sederhana yang dikembangkan sebagai bagian dari tugas/materi Praktikum Pemrograman Mobile (Pertemuan 1).
 
